@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+
+            <div class="nimi">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Kaisa Nyström</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li> 
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="language">
+                <nav>
+                    <a href="svenska.html">
+                    <img src="images/SVENSKA.png" alt="Swedish flag">
+                    <span>På Svenska</span>
+                    </a>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    <div class="dropdown">
+        <!-- Image as the dropdown button -->
+        <button class="dropdown-button" onclick="toggleDropdown()">
+            <img src="images/menu.png" alt="Menu Icon" width="30" height="30">
+            </button>
+    <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="svenska.html">På Svenska</a>
+    </div>
+    </div>
+
+<section class="title">
+    <div class="introduction">
+        <div class="introduction-h1">
+            <h1>Contact</h1>
+        </div>
+    </div>
+</section>
+
+<form action="your-server-endpoint" method="post">
+    <input type="text" id="name" name="name" placeholder="Name" required><br><br>
+
+    <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+    <input type="text" id="subject" name="subject" placeholder="Subject" required><br><br>
+
+    <textarea id="message" name="message" placeholder="Message" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+</form>
+
+<footer>
+    <div class="footer-background">
+        <div class="footer">
+
+            <nav>
+                <H3>Contact</H3>
+                <p>Tammela, Finland
+                <br>0401111222
+                <br>ruusuorapihlaja7@gmail.com</p>
+            </nav>
+
+            <nav>
+                <ul>
+                    <li><h3>Pages</h3></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <div class="footer-content">
+                    <h3 class="follow-text">Follow!</h3>
+                    <div class="social-icons">
+                            <a href="https://www.facebook.com" class="social-link">
+                            <img src="images/facebookk.png" alt="Facebook">
+                            <span>Facebook</span>
+                        </a>
+                            <a href="https://x.com" class="social-link">
+                            <img src="images/xx.png" alt="Twitter">
+                            <span>Twitter</span>
+                        </a>
+                            <a href="https://www.instagram.com" class="social-link">
+                            <img src="images/instagramm.png" alt="Instagram">
+                            <span>Instagram</span>
+                        </a>
+                    <!-- Add other social icons with text if needed -->
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+</footer>
+
+<div class="copyright-footer">
+    <p class="copyright-text">&copy;2025 Gallery. All rights reserved.</p>
+</div>
+
+</body>
+</html>

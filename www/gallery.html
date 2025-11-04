@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="nimi">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Kaisa Nyström</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="language">
+                <nav>
+                    <a href="svenska.html">
+                    <img src="images/SVENSKA.png" alt="Swedish flag">
+                    <span>På Svenska</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <div class="dropdown">
+        <!-- Image as the dropdown button -->
+        <button class="dropdown-button" onclick="toggleDropdown()">
+            <img src="images/menu.png" alt="Menu Icon" width="30" height="30">
+            </button>
+    <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="svenska.html">På Svenska</a>
+    </div>
+    </div>
+
+    <section class="title">
+        <div class="introduction">
+            <div class="introduction-h1">
+                <h1>Gallery</h1>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="gallery">
+            <div class="container">
+                <div class="image-grid">
+                <img data-lightbox="gallery7" src="images/gallery7.jpg" alt="Kaisa Nyström: Kuuntelemisen jalo taito">
+                <img data-lightbox="gallery2" src="images/gallery2.jpg" alt="Kaisa Nyström: Anitan muotokuva2">
+                <img data-lightbox="gallery3" src="images/gallery3.jpg" alt="Kaisa Nyström: Tiikerin tango">
+                <img data-lightbox="gallery4" src="images/gallery4.jpg" alt="Kaisa Nyström: Kaisa Nyström: 7.10. uhrien muistolle">
+                <img data-lightbox="gallery5" src="images/gallery5.jpg" alt="Kaisa Nyström: Kaisa Nyström: Niin kuin kyyhkynen">
+                <img data-lightbox="gallery6" src="images/gallery6.jpg" alt="Kaisa Nyström: Puhtaus">
+                <img data-lightbox="gallery1" src="images/gallery1.jpg" alt="Kaisa Nyström: Hukkuneita toiveita">
+                <img data-lightbox="gallery8" src="images/gallery8.jpg" alt="Kaisa Nyström: Vanamot (alkup. H. Schjerfbeck)">
+                <img data-lightbox="gallery9" src="images/gallery9.jpg" alt="Kaisa Nyström: Kuutamolla tapahtuu kummia">
+                <img data-lightbox="gallery10" src="images/gallery10.jpg" alt="Kaisa Nyström: Asetelma">
+                <img data-lightbox="gallery11" src="images/gallery11.jpg" alt="Kaisa Nyström: Nainen ikkunassa">
+                <img data-lightbox="gallery12" src="images/gallery12.jpg" alt="Kaisa Nyström: Mysteeri">
+                </div>
+            </div>
+        </div>
+        
+        <div class="lightbox">
+        <div class="lightbox-content">
+            <img src="-" alt="Enlarged Image">
+            <span class="close-lightbox">&times;</span>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-background">
+            <div class="footer">
+                <nav>
+                    <H3>Contact</H3>
+                    <p>Tammela, Finland
+                    <br>0401111222
+                    <br>ruusuorapihlaja7@gmail.com</p>
+                </nav>
+
+                <nav>
+                    <ul>
+                        <li><h3>Pages</h3></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <nav>
+                    <div class="footer-content">
+                        <h3 class="follow-text">Follow!</h3>
+                        <div class="social-icons">
+                                <a href="https://www.facebook.com" class="social-link">
+                                <img src="images/facebookk.png" alt="Facebook">
+                                <span>Facebook</span>
+                            </a>
+                                <a href="https://x.com" class="social-link">
+                                <img src="images/xx.png" alt="Twitter">
+                                <span>Twitter</span>
+                            </a>
+                                <a href="https://www.instagram.com" class="social-link">
+                                <img src="images/instagramm.png" alt="Instagram">
+                                <span>Instagram</span>
+                            </a>
+                        <!-- Add other social icons with text if needed -->
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright-footer">
+        <p class="copyright-text">&copy;2025 Gallery. All rights reserved.</p>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
